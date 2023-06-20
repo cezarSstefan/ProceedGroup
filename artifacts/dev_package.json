@@ -7,9 +7,16 @@
 	},
 	"name": "Proceed_Group",
 	"description": null,
-	"ver": "23.6.20.1434",
+	"ver": "23.6.20.1457",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "86cdebd1-e1fe-ed11-907c-000d3a654fb6",
+			"application": "odata_connector",
+			"title": "",
+			"description": ""
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],

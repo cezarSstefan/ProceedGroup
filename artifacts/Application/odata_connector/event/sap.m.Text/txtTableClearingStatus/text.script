@@ -1,0 +1,10 @@
+if (typeof ClearingStatus === "undefined" || ClearingStatus === null || ClearingStatus === "") { return; }  
+var formattedText = ClearingStatus; 
+
+if(ClearingStatus === 1){
+    var formattedText = "Open Item"
+}else{
+    var formattedText = "Cleared Item"
+}
+
+return formattedText;
