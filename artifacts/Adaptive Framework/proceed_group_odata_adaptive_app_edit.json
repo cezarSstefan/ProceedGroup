@@ -1,0 +1,246 @@
+{
+	"id": "f09a175f-2d09-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-06-12T14:28:17.900Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"title": "Customer Details",
+				"subTitle": "Edit Customer Details"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"labelSpanL": "12",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "CustomerAccountName",
+				"label": "Account Group",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AccountMemo",
+				"label": "Account Memo",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CustomerSupplierAccount",
+				"label": "Account Number",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FinancialAccountType",
+				"label": "Account Type",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AccountingClerk",
+				"label": "Accounting Clerk",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AdditionalCurrency1",
+				"label": "Additional Crcy 1",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AdditionalCurrency2",
+				"label": "Additional Crcy 2",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AmountInTransactionCurrency",
+				"label": "Amount (Tran Cur.)",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ClearingDate",
+				"label": "Clearing Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ClearingStatus",
+				"label": "Clearing Status",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CompanyCode",
+				"label": "Company Code",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CompanyName",
+				"label": "Company Name",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Customer",
+				"label": "Customer",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CustomerName",
+				"label": "Customer Name",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "InvoiceReference",
+				"label": "Invoice Reference",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TransactionCurrency",
+				"label": "Transaction Currency",
+				"type": "string",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "AmountInTransactionCurrency",
+				"text": "Amount (Tran Cur.)",
+				"fieldPos": 1
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "ClearingStatus",
+				"text": "Clearing Status",
+				"fieldPos": 2
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "CompanyCode",
+				"text": "Company Code",
+				"fieldPos": 3
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "CompanyName",
+				"text": "Company Name",
+				"fieldPos": 4
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "Customer",
+				"text": "Customer",
+				"fieldPos": 5
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "CustomerName",
+				"text": "Customer Name",
+				"fieldPos": 6
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "InvoiceReference",
+				"text": "Invoice Reference",
+				"fieldPos": 7
+			},
+			{
+				"inputFormatter": "Input",
+				"editable": true,
+				"visible": true,
+				"name": "TransactionCurrency",
+				"text": "Transaction Currency",
+				"fieldPos": 8
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "cd866ffb-0645-4b10-e617-e86e15f91be4",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "proceed_group_odata_adaptive_app_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "718c69a9-a5b3-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.6.12.1431",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

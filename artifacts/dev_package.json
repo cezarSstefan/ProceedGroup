@@ -1,0 +1,157 @@
+{
+	"id": "74fa106d-1b09-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-06-12T12:19:50.383Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/cezarSstefan/ProceedGroup"
+	},
+	"name": "Proceed_Group",
+	"description": null,
+	"ver": "23.6.20.1434",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [
+		{
+			"id": "852fe1b5-a50a-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_theme_CSS",
+			"description": null
+		}
+	],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "f8e7a35f-e309-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_hana_database_tile_table",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "f09a175f-2d09-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_odata_adaptive_app_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "d84277cd-3109-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_hana_database_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "ad565a5d-3109-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_hana_database",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "3562ad38-3109-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_hana_second_app",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1e9d1319-e409-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_ms_sql_tile_table",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "1bd8ce9e-d909-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_ms_sql_app",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "fa625d0a-1d0c-ee11-907c-000d3ab76cc2",
+			"description": "Connecors in a low-code app",
+			"name": "Proceed_Group_Connectors_in_app_desiner"
+		},
+		{
+			"id": "bcef834f-1b09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_MSSQL_Tile"
+		},
+		{
+			"id": "8d832741-1b09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_HANADB_Tile"
+		},
+		{
+			"id": "2b789a23-1b09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_OData_TIle"
+		},
+		{
+			"id": "228e7a46-e409-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_Splitter_template"
+		}
+	],
+	"category": [
+		{
+			"id": "f97c93d0-1c0c-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_extra"
+		},
+		{
+			"id": "e2fb29f6-1a09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_HanaDB_Tilegroup"
+		},
+		{
+			"id": "e220594d-1c09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_Main_Tilegroup"
+		},
+		{
+			"id": "55b23d08-1b09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_MSSQL_Tilegroup"
+		},
+		{
+			"id": "54e778e3-1a09-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "Proceed_Group_OData_Tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "69c008c3-1a09-ee11-907c-000d3ab76cc2",
+			"name": "Proceed_Group_Launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [
+		{
+			"id": "FA370FE2-1B09-EE11-907C-000D3AB76CC2",
+			"updatedAt": "2023-06-12T12:23:16.070Z",
+			"name": "Proceed_Group",
+			"parent": "AF1E0B77-066F-EC11-94F6-A085FCBC9F84",
+			"package": "74FA106D-1B09-EE11-907C-000D3AB76CC2"
+		}
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

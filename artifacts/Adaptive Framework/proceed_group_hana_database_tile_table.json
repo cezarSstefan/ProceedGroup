@@ -1,0 +1,353 @@
+{
+	"id": "f8e7a35f-e309-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-06-13T12:11:07.206Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "d84277cd-3109-ee11-907c-000d3ab76cc2",
+					"keyField": [
+						{
+							"fieldName": "TABLE_OID",
+							"key": "TABLE_OID",
+							"value": ""
+						}
+					]
+				},
+				"title": "HANA DB Tables",
+				"avatarIcon": "sap-icon://tnt/System HANA",
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": false,
+				"headerPreserveState": false,
+				"filterExpandable": true,
+				"showFilter": false
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": "12",
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "COUNT_NON_INTERNAL_ATTRIBUTES",
+				"label": "COUNT NON INTERNAL ATTRIBUTES",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CREATE_TIME",
+				"label": "CREATE TIME",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CSTABLE_VERSION_ID",
+				"label": "CSTABLE VERSION ID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FIXED_PART_SIZE",
+				"label": "FIXED PART SIZE",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FLAGS",
+				"label": "FLAGS",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "HIGHEST_PART_NUMBER",
+				"label": "HIGHEST PART NUMBER",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "HISTORY_TABLE_OID",
+				"label": "HISTORY TABLE OID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "LOAD_UNIT",
+				"label": "LOAD UNIT",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "LOGGING",
+				"label": "LOGGING",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "MAX_COL_ID",
+				"label": "MAX COL ID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "OWNER_OID",
+				"label": "OWNER OID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PARTITION_SPEC",
+				"label": "PARTITION SPEC",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PERIOD_NAME",
+				"label": "PERIOD NAME",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PERSISTENT_MEMORY",
+				"label": "PERSISTENT MEMORY",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REF_ID",
+				"label": "REF ID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ROW_ORDER_TYPE",
+				"label": "ROW ORDER TYPE",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_ARRAY_TYPE_LB",
+				"label": "SCHEMA FLEXIBILITY ARRAY TYPE LB",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_ARRAY_TYPE_UB",
+				"label": "SCHEMA FLEXIBILITY ARRAY TYPE UB",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_FLAGS",
+				"label": "SCHEMA FLEXIBILITY FLAGS",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_TYPE_ID",
+				"label": "SCHEMA FLEXIBILITY TYPE ID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_TYPE_LENGTH",
+				"label": "SCHEMA FLEXIBILITY TYPE LENGTH",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_FLEXIBILITY_TYPE_SCALE",
+				"label": "SCHEMA FLEXIBILITY TYPE SCALE",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SCHEMA_NAME",
+				"label": "SCHEMA NAME",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SESSION_TYPE",
+				"label": "SESSION TYPE",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SHARED",
+				"label": "SHARED",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TABLE_FLAGS",
+				"label": "TABLE FLAGS",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TABLE_LOCKKEY_ID",
+				"label": "TABLE LOCKKEY ID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TABLE_NAME",
+				"label": "TABLE NAME",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TABLE_OID",
+				"label": "TABLE OID",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TABLE_TYPE",
+				"label": "TABLE TYPE",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "UNLOAD_PRIORITY",
+				"label": "UNLOAD PRIORITY",
+				"type": "string",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "TABLE_OID",
+				"text": "TABLE OID",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "TABLE_NAME",
+				"text": "TABLE NAME",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "REF_ID",
+				"text": "REF ID",
+				"fieldPos": 3
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "TABLE_OID",
+				"text": "TABLE OID",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "83d06003-3a37-4cb0-a1e1-adfd235d2a51",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "proceed_group_hana_database_tile_table",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b52589f7-76cc-ed11-a8de-000d3a65e714",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.6.13.1211",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_table",
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
