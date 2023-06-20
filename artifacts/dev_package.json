@@ -140,7 +140,23 @@
 	"department": [],
 	"script_scheduler": [],
 	"wf_definition": [],
-	"connector": [],
+	"connector": [
+		{
+			"id": "b52589f7-76cc-ed11-a8de-000d3a65e714",
+			"name": "HANA Database: Tables",
+			"description": "Auto created from Neptune Extended Connectors"
+		},
+		{
+			"id": "718c69a9-a5b3-ed11-a8e0-000d3ada944e",
+			"name": "OData: Customer Line Items",
+			"description": "Auto created from Neptune Extended Connectors"
+		},
+		{
+			"id": "2e8b9965-cb09-ee11-907c-000d3ab76cc2",
+			"name": "MS SQL Server: Inspections",
+			"description": "Auto created from Neptune Extended Connectors"
+		}
+	],
 	"events": [],
 	"media_library": [
 		{

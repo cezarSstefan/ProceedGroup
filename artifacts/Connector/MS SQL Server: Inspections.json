@@ -1,0 +1,19 @@
+{
+	"id": "2e8b9965-cb09-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-06-13T09:19:29.278Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"scriptSel": "f998fbcc-6bbd-4610-a196-d1d60abbd1a3",
+		"scriptRun": "0321987c-1ecf-4757-908f-9c5540fbc0c6",
+		"startParam": "2D8B9965-CB09-EE11-907C-000D3AB76CC2",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "MS SQL Server: Inspections",
+	"description": "Auto created from Neptune Extended Connectors",
+	"group": null,
+	"type": "S",
+	"ver": "23.6.20.1449",
+	"disabled": false,
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2"
+}

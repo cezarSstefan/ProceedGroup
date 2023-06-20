@@ -1,0 +1,19 @@
+{
+	"id": "718c69a9-a5b3-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-02-23T18:12:43.794Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"scriptSel": "82c9459e-bc38-4df9-98d3-080bcda58b22",
+		"scriptRun": "4a64df7b-bce9-482c-92f4-b0a8054ea75b",
+		"startParam": "5EAC9C1F-A5B3-ED11-A8E0-000D3ADA944E",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "OData: Customer Line Items",
+	"description": "Auto created from Neptune Extended Connectors",
+	"group": null,
+	"type": "S",
+	"ver": "23.6.20.1450",
+	"disabled": false,
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2"
+}

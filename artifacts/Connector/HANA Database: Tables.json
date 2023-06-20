@@ -1,0 +1,19 @@
+{
+	"id": "b52589f7-76cc-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-27T08:11:25.976Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"scriptSel": "1509c7e7-5115-4022-8fab-b2c4a6aca1ec",
+		"scriptRun": "dde08a65-ec1d-429d-9c67-e178e4b7a15d",
+		"startParam": "B42589F7-76CC-ED11-A8DE-000D3A65E714",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "HANA Database: Tables",
+	"description": "Auto created from Neptune Extended Connectors",
+	"group": null,
+	"type": "S",
+	"ver": "23.6.20.1449",
+	"disabled": false,
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2"
+}
