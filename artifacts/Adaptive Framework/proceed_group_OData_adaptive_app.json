@@ -1,0 +1,345 @@
+{
+	"id": "9da8a7c0-2c09-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-06-12T14:23:52.050Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Go",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Customer Open Items",
+				"avatarIcon": "sap-icon://accelerated",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "f09a175f-2d09-ee11-907c-000d3ab76cc2",
+					"keyField": []
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "f09a175f-2d09-ee11-907c-000d3ab76cc2",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": true,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "AccountMemo",
+				"label": "Account Memo",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AccountingClerk",
+				"label": "Accounting Clerk",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AdditionalCurrency1",
+				"label": "Additional Crcy 1",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AdditionalCurrency2",
+				"label": "Additional Crcy 2",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "AmountInTransactionCurrency",
+				"label": "Amount (Tran Cur.)",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ClearingDate",
+				"label": "Clearing Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ClearingStatus",
+				"label": "Clearing Status",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CompanyCode",
+				"label": "Company Code",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CompanyName",
+				"label": "Company Name",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Customer",
+				"label": "Customer",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CustomerAccountName",
+				"label": "Account Group",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CustomerName",
+				"label": "Customer Name",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CustomerSupplierAccount",
+				"label": "Account Number",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FinancialAccountType",
+				"label": "Account Type",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "InvoiceReference",
+				"label": "Invoice Reference",
+				"type": "string",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TransactionCurrency",
+				"label": "Transaction Currency",
+				"type": "string",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "CompanyCode",
+				"text": "Company Code",
+				"fieldPos": 1,
+				"type": "ValueHelpOData"
+			},
+			{
+				"visible": true,
+				"name": "ClearingStatus",
+				"text": "Clearing Status",
+				"fieldPos": 2,
+				"type": "ValueHelpOData",
+				"default": "[2]"
+			},
+			{
+				"visible": true,
+				"name": "Customer",
+				"text": "Customer",
+				"fieldPos": 3,
+				"type": "ValueHelpOData"
+			},
+			{
+				"visible": true,
+				"name": "CustomerName",
+				"text": "Customer Name",
+				"fieldPos": 4
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "ClearingStatus",
+				"text": "Clearing Status",
+				"fieldPos": 5,
+				"valueType": "Rule",
+				"valueRule": "1554D577-A6B3-ED11-A8E0-000D3ADA944E"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "CompanyName",
+				"text": "Company Name",
+				"fieldPos": 6
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "CompanyCode",
+				"text": "Company Code",
+				"fieldPos": 7
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Customer",
+				"text": "Customer",
+				"fieldPos": 8
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "CustomerName",
+				"text": "Customer Name",
+				"fieldPos": 9
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "InvoiceReference",
+				"text": "Invoice Reference",
+				"fieldPos": 10
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "ClearingDate",
+				"text": "Clearing Date",
+				"fieldPos": 11,
+				"formatter": "date00"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "AmountInTransactionCurrency",
+				"text": "Amount (Tran Cur.)",
+				"fieldPos": 12,
+				"type": "ObjectNumber",
+				"formatter": "number03",
+				"numberUnitType": "Binding",
+				"numberUnitBinding": "TransactionCurrency",
+				"hAlign": "End"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "TransactionCurrency",
+				"text": "Transaction Currency",
+				"fieldPos": 13
+			}
+		],
+		"defaultVariant": {
+			"id": "eb33f30a-699c-4f9e-d5c3-b82e31f14421",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "proceed_group_OData_adaptive_app",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "718c69a9-a5b3-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.6.20.156",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

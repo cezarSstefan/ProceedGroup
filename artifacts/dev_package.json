@@ -58,6 +58,12 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
+			"id": "9da8a7c0-2c09-ee11-907c-000d3ab76cc2",
+			"name": "proceed_group_OData_adaptive_app",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "3562ad38-3109-ee11-907c-000d3ab76cc2",
 			"name": "proceed_group_hana_second_app",
 			"description": "",
