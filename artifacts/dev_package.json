@@ -7,7 +7,7 @@
 	},
 	"name": "Proceed_Group",
 	"description": null,
-	"ver": "23.6.20.1457",
+	"ver": "23.6.20.1511",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -31,7 +31,13 @@
 		}
 	],
 	"pdf": [],
-	"rulesengine": [],
+	"rulesengine": [
+		{
+			"id": "1554d577-a6b3-ed11-a8e0-000d3ada944e",
+			"name": "OData: Clearing Status",
+			"description": ""
+		}
+	],
 	"reports": [
 		{
 			"id": "f8e7a35f-e309-ee11-907c-000d3ab76cc2",

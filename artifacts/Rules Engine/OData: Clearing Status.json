@@ -1,0 +1,57 @@
+{
+	"id": "1554d577-a6b3-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-02-23T18:18:28.483Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"interface": [
+		{
+			"id": "d04936a8-8f58-4183-df1b-b99e6b55435c",
+			"parent": "",
+			"name": "ClearingStatus",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "74317472-7e2a-4ee4-de34-1d6456dbb8ab",
+			"result": "Cleared item",
+			"items": [
+				{
+					"id": "28fc96f8-94b8-41d4-d9b1-9ccb36b7464c",
+					"field": "d04936a8-8f58-4183-df1b-b99e6b55435c",
+					"operator": "equal",
+					"value": "1"
+				}
+			]
+		},
+		{
+			"id": "f2f9e216-1fb9-42b8-c322-3949ef07adfe",
+			"result": "Open item",
+			"items": [
+				{
+					"id": "1ac3f623-fb29-4e14-cf8a-576d4eefdf6d",
+					"field": "d04936a8-8f58-4183-df1b-b99e6b55435c",
+					"operator": "equal",
+					"value": "2"
+				}
+			]
+		},
+		{
+			"id": "46971d6a-42ec-4444-ecfe-c1c43cee2bb0",
+			"result": "Parked item",
+			"items": [
+				{
+					"id": "472a40c4-3cf1-47ad-c1f1-0e1127bb5a06",
+					"field": "d04936a8-8f58-4183-df1b-b99e6b55435c",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		}
+	],
+	"name": "OData: Clearing Status",
+	"description": "",
+	"ver": "23.6.20.1511",
+	"package": "74fa106d-1b09-ee11-907c-000d3ab76cc2",
+	"roles": []
+}
